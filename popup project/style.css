@@ -1,0 +1,12 @@
+#box{
+  background-color: #94B49F;
+  height:300px;
+  width:700px;
+  visibility: hidden;
+}
+body{
+  background-color: #CEE5D0;
+}
+#box.show{
+  visibility: visible;
+}

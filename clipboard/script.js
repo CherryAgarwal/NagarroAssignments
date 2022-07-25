@@ -1,6 +1,12 @@
 $(document).ready(function(){
-  $('#btn').click(function(){
-    $('#text').select();
-    document.execCommand('copy');
-  });
+  var text='';
+   $('.copy').click(function(){
+       $('#text').select();
+       document.execCommand('copy');
+       text=$('#text').val();
+   })
+   $('.paste').click(function(){
+      $('#text1').val(text);
+   })
+
 });
